@@ -1,0 +1,7 @@
+.btn-container {
+    margin: 2rem;
+    padding: 1rem;
+    background-color: rgb(210, 210, 210);
+    width: 350px;
+    height: max-content;
+}
