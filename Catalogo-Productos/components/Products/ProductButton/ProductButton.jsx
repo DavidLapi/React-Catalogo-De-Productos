@@ -1,9 +1,9 @@
 import "./ProductButton.css"
 
-function ProductButton() {
+function ProductButton(props) {
   return (
     <div className="btn-container">
-        <button className="btn-carrito">Añadir al carrito</button>
+        <button className="btn-carrito" style={{backgroundColor: props.backColor}}>Añadir al carrito</button>
     </div>
   )
 }

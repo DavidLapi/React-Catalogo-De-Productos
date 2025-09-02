@@ -1,8 +1,18 @@
 .card-container {
-    margin: 0 auto;
+    margin: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
     padding: 1rem;
     width: 350px;
     height: max-content;
+    border: 3px solid black;
+
+}
+
+.card-nombre {
+    font-size: 40px;
+    font-weight: bold;
+    color: black;
 }
 
 .card-img {
