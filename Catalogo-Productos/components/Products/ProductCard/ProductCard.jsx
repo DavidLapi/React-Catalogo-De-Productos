@@ -12,7 +12,7 @@ function ProductCard(props) {
         />
         <p className='card-precio'>Precio: {props.precio}€</p>
         {props.precio > 10 && <p className="card-premium">Producto premium</p>}
-        <ProductButton backColor={props.backColorBtn} />
+        <ProductButton backColor={props.backColorBtn} nombre={props.nombre} />
     </div>
   )
 }
